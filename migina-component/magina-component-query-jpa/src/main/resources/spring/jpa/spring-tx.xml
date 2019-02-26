@@ -9,7 +9,8 @@
        >
 
 
-    <bean name="jpaTransactionConfigBean" class="com.rjsoft.magina.component.query.jpa.configuration.JpaTransactionConfigBean"></bean>
+    <bean name="jpaTransactionConfigBean"
+          class="com.rjsoft.magina.component.query.jpa.configuration.JpaTransactionConfigBean"/>
 
     <tx:advice id="txAdvise" transaction-manager="transactionManager">
         <tx:attributes>
