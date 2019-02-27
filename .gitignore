@@ -1,5 +1,6 @@
 .idea
 *.iml
 */target/*
-*/log.path_IS_UNDEFINED/
 magina-component/magina-component-query-jpa/target/*
+log.path_IS_UNDEFINED/*
+
