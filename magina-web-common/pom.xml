@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>migina-parent</artifactId>
+        <artifactId>magina-parent</artifactId>
         <groupId>com.rjsoft</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../migina-parent/pom.xml</relativePath>
+        <relativePath>../magina-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>migina-spi-common</artifactId>
+    <artifactId>magina-web-common</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -22,6 +22,11 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
         </dependency>
     </dependencies>
 

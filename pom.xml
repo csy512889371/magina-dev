@@ -12,7 +12,7 @@
     </parent>
 
     <modules>
-        <module>migina-parent</module>
+        <module>magina-parent</module>
     </modules>
 
     <groupId>com.rjsoft</groupId>

@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>migina-parent</artifactId>
+        <artifactId>magina-parent</artifactId>
         <groupId>com.rjsoft</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../migina-parent</relativePath>
+        <relativePath>../magina-parent</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>migina-component</artifactId>
+    <artifactId>magina-component</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>./magina-component-query-jpa</module>
