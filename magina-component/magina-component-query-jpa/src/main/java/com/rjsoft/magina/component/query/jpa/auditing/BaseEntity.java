@@ -1,7 +1,7 @@
 package com.rjsoft.magina.component.query.jpa.auditing;
 
 
-
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.rjsoft.magina.component.query.jpa.util.SnowflakeGenerator;
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.data.domain.Persistable;
@@ -23,8 +23,9 @@ import java.io.Serializable;
 public abstract class BaseEntity<PK extends Serializable> implements Persistable<PK> {
 
     @Id
-    @GenericGenerator(name="snowflake",strategy = SnowflakeGenerator.TYPE)
+    @GenericGenerator(name = "snowflake", strategy = SnowflakeGenerator.TYPE)
     @GeneratedValue(generator = "snowflake")
+    @JsonProperty
     private PK id;
 
     public PK getId() {
