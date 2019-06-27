@@ -1,6 +1,12 @@
 .idea
 *.iml
 */target/*
+magina-component/magina-component-cache-jetcache-client/target/*
+magina-component/magina-component-fastdfs-client/target/*
 magina-component/magina-component-query-jpa/target/*
+magina-component/magina-component-redis/target/*
+magina-component/magina-component-session-redis/target/*
+magina-component/magina-component-redis-lettuce/target/*
+magina-component/magina-component-codegenerator/target/*
 log.path_IS_UNDEFINED/*
 

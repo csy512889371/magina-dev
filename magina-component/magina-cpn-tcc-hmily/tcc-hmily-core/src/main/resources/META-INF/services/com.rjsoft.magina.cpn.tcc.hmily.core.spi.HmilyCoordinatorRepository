@@ -1,0 +1,5 @@
+com.rjsoft.magina.cpn.tcc.hmily.core.spi.repository.JdbcCoordinatorRepository
+com.rjsoft.magina.cpn.tcc.hmily.core.spi.repository.FileCoordinatorRepository
+com.rjsoft.magina.cpn.tcc.hmily.core.spi.repository.MongoCoordinatorRepository
+com.rjsoft.magina.cpn.tcc.hmily.core.spi.repository.RedisCoordinatorRepository
+com.rjsoft.magina.cpn.tcc.hmily.core.spi.repository.ZookeeperCoordinatorRepository

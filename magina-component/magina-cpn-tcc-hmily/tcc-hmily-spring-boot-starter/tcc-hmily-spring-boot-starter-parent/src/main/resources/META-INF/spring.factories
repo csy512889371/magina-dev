@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.rjsoft.magina.cpn.tcc.hmily.s.b.s.p.configuration.HmilyAutoConfiguration

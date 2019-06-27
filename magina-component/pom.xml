@@ -14,6 +14,16 @@
     <packaging>pom</packaging>
     <modules>
         <module>./magina-component-query-jpa</module>
+        <module>magina-component-fastdfs-client</module>
+        <module>magina-component-cache-jetcache-client</module>
+        <module>magina-component-session-redis</module>
+        <module>magina-component-redis</module>
+        <module>magina-component-redis-lettuce</module>
+        <module>magina-component-codegenerator</module>
+        <module>magina-component-id-uidgenerator</module>
+        <module>magina-component-id-snowflake</module>
+        <module>magina-component-id-idleaf</module>
+        <module>magina-cpn-tcc-hmily</module>
     </modules>
 
 

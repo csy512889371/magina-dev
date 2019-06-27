@@ -1,0 +1,4 @@
+com.rjsoft.magina.cpn.tcc.hmily.common.serializer.KryoSerializer
+com.rjsoft.magina.cpn.tcc.hmily.common.serializer.ProtostuffSerializer
+com.rjsoft.magina.cpn.tcc.hmily.common.serializer.HessianSerializer
+com.rjsoft.magina.cpn.tcc.hmily.common.serializer.JavaSerializer
