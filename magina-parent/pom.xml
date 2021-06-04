@@ -36,7 +36,7 @@
 
         <commons-io-version>2.6</commons-io-version>
         <druid.version>1.0.26</druid.version>
-        <httpcomponents.version>4.5.3</httpcomponents.version>
+        <httpcomponents.version>4.5.13</httpcomponents.version>
         <mysql-connector-java.version>5.1.44</mysql-connector-java.version>
 
         <tomcat-embed-core.version>9.0.13</tomcat-embed-core.version>
